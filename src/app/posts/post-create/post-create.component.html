@@ -1,7 +1,10 @@
 <mat-card class="card-container">
-  <mat-card-content>
-    <textarea matInput class="textarea-full-width" rows="6" [(ngModel)]="enteredValue"></textarea>
-  </mat-card-content>
+  <mat-form-field>
+    <input matInput type="text" [(ngModel)]="entederTitle">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea matInput class="textarea-full-width" rows="6" [(ngModel)]="enteredContent"></textarea>
+  </mat-form-field>
   <mat-card-actions>
   <button
     mat-raised-button
@@ -9,4 +12,3 @@
     (click)="onAddPosts()">Save post</button>
   </mat-card-actions>
 </mat-card>
-<p>{{ newPost }}</p>

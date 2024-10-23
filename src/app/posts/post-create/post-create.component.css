@@ -1,6 +1,4 @@
-.card-container {
-  width: 80%;              /* O card ocupa 80% da tela */
-  margin: 0 auto;           /* Centraliza o card horizontalmente */
+.card-container {         /* Centraliza o card horizontalmente */
   padding: 16px;            /* Espaçamento interno no card */
   box-sizing: border-box;   /* Inclui o padding no cálculo da largura */
 }
