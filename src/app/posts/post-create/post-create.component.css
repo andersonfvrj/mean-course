@@ -1,0 +1,17 @@
+.card-container {
+  width: 80%;              /* O card ocupa 80% da tela */
+  margin: 0 auto;           /* Centraliza o card horizontalmente */
+  padding: 16px;            /* Espaçamento interno no card */
+  box-sizing: border-box;   /* Inclui o padding no cálculo da largura */
+}
+
+.textarea-full-width {
+  width: 100%;              /* O textarea ocupa 100% da largura do card */
+  min-height: 150px;        /* Altura mínima do textarea */
+  box-sizing: border-box;   /* Inclui o padding no cálculo da largura */
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-start; /* O botão fica no canto esquerdo */
+}
